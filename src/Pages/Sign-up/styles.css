@@ -1,0 +1,94 @@
+.cadastro-main {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.nav-cadastro {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 513px;
+  height: 850px;
+  top: 10%;
+  background: #ffffff;
+}
+
+.nav-cadastro strong {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  color: #7978d9;
+  margin-top: 61px;
+  margin-bottom: 42px;
+  width: 171px;
+  height: 32px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+}
+
+.form label {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #484848;
+  margin-top: 15px;
+  margin-bottom: 8px;
+  width: 197px;
+  height: 22px;
+}
+
+.form input {
+  width: 449px;
+  height: 63px;
+  background: #ffffff;
+  border: 1px solid #555555;
+  border-radius: 5px;
+}
+
+.nav-cadastro button {
+  margin-top: 38px;
+  width: 449px;
+  height: 53px;
+  background: #7978d9;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+}
+
+#tem-cadastro {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #7b61ff;
+  margin-top: 6px;
+}
+
+.error {
+  color: red;
+}
+
+#usuario-cadastrado {
+  color: green;
+  border: 4px solid;
+  background: lightgreen;
+}

@@ -1,0 +1,142 @@
+.container-login {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.navs-login {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  top: 194px;
+}
+
+.login-description-cadastro {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 614px;
+  height: 535px;
+}
+
+.login-description-cadastro h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 62px;
+  color: #ffffff;
+}
+
+#span {
+  color: #7978d9;
+}
+
+.login-description-cadastro h2 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33px;
+  color: #ffffff;
+}
+
+.login-description-cadastro button {
+  width: 254px;
+  height: 52px;
+  background: #7978d9;
+  border-radius: 5px;
+  border: none;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.login-form {
+  width: 513px;
+  height: 535px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-form strong {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  margin-top: 60px;
+  color: #7978d9;
+}
+
+.login-form form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 90%;
+  margin-top: 48px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #484848;
+}
+
+form input {
+  width: 449px;
+  height: 63px;
+  background: #ffffff;
+  border: 1px solid #555555;
+  border-radius: 5px;
+  margin-top: 8px;
+  margin-bottom: 31px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 5px;
+}
+
+form button {
+  background: #7978d9;
+  border-radius: 5px;
+  width: 449px;
+  height: 52px;
+  margin-top: 43px;
+  margin-bottom: 49px;
+  border: none;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+a {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.error {
+  color: red;
+}
