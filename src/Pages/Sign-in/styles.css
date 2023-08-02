@@ -1,142 +1,173 @@
 .container-login {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
 }
 .navs-login {
-  width: 100%;
-  height: max-content;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  position: absolute;
-  top: 194px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
 }
 
 .login-description-cadastro {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  width: 614px;
-  height: 535px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 45rem;
+    height: 535px;
 }
 
 .login-description-cadastro h1 {
-  font-family: "Rubik";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 52px;
-  line-height: 62px;
-  color: #ffffff;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: #ffffff;
 }
 
 #span {
-  color: #7978d9;
+    color: #7978d9;
 }
 
 .login-description-cadastro h2 {
-  font-family: "Rubik";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 28px;
-  line-height: 33px;
-  color: #ffffff;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #ffffff;
 }
 
 .login-description-cadastro button {
-  width: 254px;
-  height: 52px;
-  background: #7978d9;
-  border-radius: 5px;
-  border: none;
-  font-family: "Rubik";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 17px;
-  color: #ffffff;
-  cursor: pointer;
+    width: 254px;
+    height: 52px;
+    background: #7978d9;
+    border-radius: 5px;
+    border: none;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 17px;
+    color: #ffffff;
+    cursor: pointer;
 }
 
 .login-form {
-  width: 513px;
-  height: 535px;
-  background: #ffffff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    width: 35rem;
+    height: 535px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .login-form strong {
-  font-family: "Rubik";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 28px;
-  line-height: 33px;
-  margin-top: 60px;
-  color: #7978d9;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    margin-top: 60px;
+    color: #7978d9;
 }
 
 .login-form form {
-  display: flex;
-  flex-direction: column;
-  width: 90%;
-  height: 90%;
-  margin-top: 48px;
-  font-family: "Rubik";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-
-  color: #484848;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 90%;
+    margin-top: 48px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    gap: 1rem;
+    color: #484848;
 }
 
 form input {
-  width: 449px;
-  height: 63px;
-  background: #ffffff;
-  border: 1px solid #555555;
-  border-radius: 5px;
-  margin-top: 8px;
-  margin-bottom: 31px;
-  font-family: "Rubik";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  margin: 5px;
+    width: 100%;
+    height: 63px;
+    background: #ffffff;
+    border: 1px solid #555555;
+    border-radius: 5px;
+    margin-top: 8px;
+    margin-bottom: 31px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 5px;
 }
 
 form button {
-  background: #7978d9;
-  border-radius: 5px;
-  width: 449px;
-  height: 52px;
-  margin-top: 43px;
-  margin-bottom: 49px;
-  border: none;
-  font-family: "Rubik";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 17px;
-  color: #ffffff;
-  cursor: pointer;
+    background: #7978d9;
+    border-radius: 5px;
+    width: 60%;
+    height: 52px;
+    margin-top: 4rem;
+    margin-left: 20%;
+    border: none;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 17px;
+    color: #ffffff;
+    cursor: pointer;
 }
 
 a {
-  font-family: "Rubik";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 17px;
-  color: #ffffff;
-  text-decoration: none;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .error {
-  color: red;
+    color: red;
+}
+
+@media (min-width: 860px) and (max-width: 1280px) {
+    .login-form {
+        width: 25rem;
+        height: 30rem;
+    }
+    .login-form form {
+        width: 80%;
+        margin-top: 1rem;
+    }
+    .login-description-cadastro {
+        width: 25rem;
+        height: 30rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 859px) {
+    .login-form {
+        width: 20rem;
+        height: 20rem;
+    }
+    .login-form form {
+        width: 80%;
+        margin-top: 1rem;
+    }
+    .login-description-cadastro {
+        width: 20rem;
+        height: 20rem;
+    }
 }
