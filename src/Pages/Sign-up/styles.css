@@ -9,8 +9,12 @@
     position: absolute;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    width: 50%;
+    margin-top: 5rem;
+    width: 30%;
+    max-width: 35rem;
+    min-width: 25rem;
     height: 80%;
     background: #ffffff;
 }
@@ -19,54 +23,41 @@
     font-family: "Rubik";
     font-style: normal;
     font-weight: 500;
-    font-size: 28px;
-    line-height: 33px;
+    font-size: 1.5rem;
     color: #7978d9;
-    margin-top: 61px;
-    margin-bottom: 42px;
-    width: 171px;
-    height: 32px;
 }
 
 .form {
     display: flex;
     flex-direction: column;
-    height: max-content;
+    width: 90%;
+    height: 23rem;
+    justify-content: space-between;
 }
 
 .form label {
     font-family: "Rubik";
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 1rem;
     color: #484848;
-    margin-top: 15px;
-    margin-bottom: 8px;
-    width: 197px;
-    height: 22px;
 }
 
 .form input {
-    width: 449px;
-    height: 63px;
     background: #ffffff;
     border: 1px solid #555555;
     border-radius: 5px;
 }
 
 .nav-cadastro button {
-    margin-top: 38px;
-    width: 449px;
-    height: 53px;
+    width: 10rem;
+    height: 3rem;
     background: #7978d9;
     border-radius: 5px;
-    margin-bottom: 8px;
     font-family: "Rubik";
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 1rem;
     color: #ffffff;
     cursor: pointer;
     border: none;
@@ -76,10 +67,8 @@
     font-family: "Lato";
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 1rem;
     color: #7b61ff;
-    margin-top: 6px;
 }
 
 .error {
@@ -93,4 +82,11 @@
 }
 
 @media (max-width: 767px) {
+    .nav-cadastro {
+        width: 90%;
+        height: 70vh;
+        max-width: 90%;
+        min-width: 90%;
+        margin-top: 1rem;
+    }
 }
