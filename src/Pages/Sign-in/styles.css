@@ -133,21 +133,96 @@ a {
 
 @media (max-width: 767px) {
     .container-login {
-        height: 110vh;
+        height: 100vh;
     }
 
     .navs-login {
         flex-direction: column;
-        height: auto;
-        gap: 4rem;
+        gap: 1rem;
+        margin-top: 2rem;
     }
     .login-description-cadastro {
-        height: max-content;
-        width: 90%;
+        height: 40%;
+        width: 100%;
     }
 
     .login-form {
+        width: 100%;
+        height: 50%;
+    }
+    .login-form form {
         width: 90%;
-        height: 50vh;
+    }
+
+    .login-form button {
+        height: 3rem;
+    }
+
+    .modal {
+        width: 100% !important;
+        height: 111% !important;
+    }
+    .modal-edit {
+        width: 90% !important;
+        height: auto !important;
+    }
+
+    .modal-form input,
+    select {
+        width: 90% !important;
+        height: 2rem !important;
+    }
+    .modal-form label {
+        font-size: 1rem !important;
+    }
+    .modal-form button {
+        width: 60% !important;
+        height: 3rem !important;
+        margin-bottom: 1rem !important;
+        margin-top: 1rem !important;
+    }
+
+    .container-modal h1 {
+        font-size: 1rem !important;
+        width: 80% !important;
+    }
+
+    .container-modal button {
+        width: 50% !important;
+        height: 3rem !important;
+    }
+
+    .container-modal img {
+        width: 1.5rem !important;
+    }
+
+    .error {
+        font-size: 0.9rem !important;
+    }
+
+    .modal-excluir-task {
+        width: 91% !important;
+        position: absolute !important;
+        height: 7% !important;
+    }
+
+    #triangulo {
+        position: relative !important;
+        top: 1rem !important;
+    }
+
+    .modal-excluir-task p {
+        font-size: 1rem !important;
+    }
+
+    .modal-excluir-task-buttons {
+        display: flex !important;
+        width: 75% !important;
+        height: 30% !important;
+        position: relative !important;
+        bottom: 0.8rem !important;
+    }
+    .modal-excluir-task-buttons button {
+        width: 50% !important;
     }
 }
