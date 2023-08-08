@@ -310,8 +310,8 @@ function Home() {
                     </div>
                 </div>
                 <div className="container-resumo">
+                    <h1>Resumo</h1>
                     <div className="container-resumo-data">
-                        <h1>Resumo</h1>
                         {<ResumoRender transactions={transactions} />}
                     </div>
                     <div className="container-button-cadastrar-produto">
