@@ -30,7 +30,7 @@ function SignIn() {
 
         const { email, senha } = formValues;
         const errors = {};
-
+        console.log(email, senha);
         if (email === "") {
             errors.email = "Campo e-mail precisa ser preenchido";
         }
@@ -41,6 +41,7 @@ function SignIn() {
         setFormErrors(errors);
 
         if (Object.keys(errors).length === 0) {
+            console.log("entrou");
             //Todos os campos foram preenchidos
             //Implementar lógica para chamad da api para cadastro
             //window.location.href = '/home';
@@ -122,7 +123,9 @@ function SignIn() {
                             )}
                         </label>
                     </form>
-                    <button type="submit">Entrar</button>
+                    <button type="submit" onClick={handleSubmit}>
+                        Entrar
+                    </button>
                 </div>
             </div>
         </div>
